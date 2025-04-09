@@ -7,6 +7,8 @@ import time
 from pathlib import Path
 
 def get_museum_data(regenerate=False):
+    #TODO: As the size of the dataset increases, we would have to save it elsewhere.
+    # For now it is fine to cache it locally. 
     output_file = Path("data/museum_data.csv")
     if output_file.exists() and not regenerate:
         return pd.read_csv(output_file)
@@ -122,6 +124,12 @@ def clean_museum_table(df):
     df = df.applymap(lambda x: x.split('[')[0] if isinstance(x, str) else x)
     df['visitors'] = df['visitors'].str.replace(r'\s*\(.*?\)', '', regex=True).str.strip()
     
+    # Clean the one visitor value that contains a leading >
+    df['visitors'] = df['visitors'].str.replace(r'^>', '', regex=True).str.strip()
+    
+    # Clean the name of the M+ museum to M_plus
+    df['name'] = df['name'].str.replace(r'\+', '_plus', regex=True).str.strip()
+
     # Convert values
     convert_million_values(df)
     
@@ -132,9 +140,3 @@ def clean_museum_table(df):
     df = df[['name', 'type', 'collection_size', 'visitors', 'city', 'country']]
 
     return df
-
-def run():
-    df = get_museum_data()
-    print(df.to_string())
-
-run()
