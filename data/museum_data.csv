@@ -1,0 +1,81 @@
+,name,type,collection_size,visitors,city,country
+0,Louvre,Art museum and historic site,615797.0,"8,700,000",Paris,France
+1,Vatican Museums,Art museum,N/A,"6,800,000",Vatican City,Vatican
+2,National Museum of China,"Art museum, history museum",1300000.0,"6,300,000",Beijing,China
+3,British Museum,N/A,N/A,"6,479,952",London,United Kingdom
+4,"Natural History Museum, South Kensington",Natural history museum,N/A,"6,301,972",London,United Kingdom
+5,Metropolitan Museum of Art,Art museum,2000000.0,"5,400,000",New York City,United States
+6,American Museum of Natural History,Private 501(c)(3) organizationNatural history museum,N/A,"5,400,000",New York City,United States
+7,China Science and Technology Museum,Science museum,N/A,"5,315,000",Beijing,China
+8,Galleria degli Uffizi,"Art museum, design/textile museum, historic site",N/A,"5,138,588",Florence,Italy
+9,Nanjing Museum,"History museum, art museum",N/A,"5,007,000",Nanjing,China
+10,Musée d'Orsay,"Art museum, Design/Textile Museum, Historic site",N/A,"4,900,000",Paris,France
+11,Suzhou Museum,N/A,N/A,"4,852,000",Suzhou,China
+12,Tate Modern,N/A,N/A,"4,603,025",London,United Kingdom
+13,National Museum of Natural History,Natural history museum,146000000.0,"4,400,000",Washington,United States
+14,National Museum of Korea,History and Art museum,N/A,"4,179,999",Seoul,South Korea
+15,Guangdong Museum,N/A,N/A,"4,000,000",Guangzhou,China
+16,National Gallery of Art,N/A,75000.0,"3,829,812",Washington,United States
+17,Musée National d'Histoire Naturelle,"Natural history museum, part of Sorbonne University",67000000.0,"3,800,000",Paris,France
+18,State Hermitage Museum,N/A,3000000.0,"3,273,753",Saint Petersburg,Russia
+19,Prado Museum,Non-movable,N/A,"3,338,285",Madrid,Spain
+20,Palace and Garden of Sa'dabad,N/A,N/A,"3,121,000",Tehran,Iran
+21,Victoria and Albert Museum,Art museum,2800000.0,"3,525,700",London,United Kingdom
+22,National Air and Space Museum,Aviation museum,N/A,"3,100,000",Washington,United States
+23,National Gallery,Art museum,N/A,"3,203,451",London,United Kingdom
+24,Museum of Modern Art,Art museum,N/A,"2,839,509",New York City,United States
+25,National Museum of Anthropology,Archaeology museum,N/A,"2,636,352",Mexico City,Mexico
+26,Centre Pompidou,Cultural center,N/A,"2,611,000",Paris,France
+27,Museo Nacional de Historia,History museum,N/A,"2,456,825",Mexico City,Mexico
+28,Golestan Palace,N/A,N/A,"2,106,603",Tehran,Iran
+29,Smithsonian Museum of American History,History museum,N/A,"2,100,000",Washington,United States
+30,Galleria dell'Accademia,Art museum,N/A,"2,013,914",Florence,Italy
+31,National Museum in Warsaw,National museum,N/A,"2,000,000",Warsaw,Poland
+32,Guggenheim Museum Bilbao,Art museum,N/A,"1,324,000",Bilbao,Spain
+33,Mevlana Museum,Mosque,N/A,"3,352,505",Konya,Turkey
+34,State Russian Museum,Art museum and Historic site,N/A,"2,900,000",Saint Petersburg,Russia
+35,National Museum of Marine Science and Technology,museum,N/A,"2,726,000",Keelung,Taiwan
+36,London Science Museum,N/A,N/A,"2,827,242",London,United Kingdom
+37,M+,Art museum,N/A,"2,798,000",Hong Kong,Hong Kong
+38,National Museum of Nature and Science,N/A,N/A,"2,694,021",Tokyo,Japan
+39,Chinese Aviation Museum,Aviation museum,N/A,"2,300,000",Beijing,China
+40,Topography of Terror,N/A,N/A,"2,100,000",Berlin,Germany
+41,Cité des Sciences et de l'Industrie,Science museum,N/A,"1,992,823",Paris,France
+42,National Museum of Scotland,N/A,N/A,"2,314,974",Edinburgh,United Kingdom
+43,State Tretyakov Gallery,Art museum,N/A,"2,100,000",Moscow,Russia
+44,National Science and Technology Museum,Science museum,N/A,"1,875,372",Kaohsiung,Taiwan
+45,National Museum of Modern and Contemporary Art,N/A,N/A,"1,806,641",Seoul,South Korea
+46,Rijksmuseum,National museumArt museumHistory museum,1000000.0,"2,702,824",Amsterdam,Netherlands
+47,Belvedere,Art museum,N/A,"1,834,000",Vienna,Austria
+48,National Gallery Singapore,Art museum,N/A,"1,723,916",Singapore,Singapore
+49,California Science Center,Science museum,N/A,"1,694,000",Los Angeles,United States
+50,Art Gallery of NSW,"Fine arts, visual arts, Asian arts",N/A,"1,692,028",Sydney,Australia
+51,Royal Museums Greenwich,N/A,N/A,"2,255,753",London,United Kingdom
+52,Zhejiang Museum of Natural History,Natural history museum,N/A,"1,581,263",Hangzhou,China
+53,National Gallery of Victoria,State Registered Place,N/A,"1,580,303",Melbourne,Australia
+54,National Palace Museum,National museum,N/A,">1,550,000",Taipei,Taiwan
+55,Jianchuan Museum Cluster,N/A,N/A,"1,538,143",Chengdu,China
+56,Houston Museum of Natural Science,Natural history museum,N/A,"1,520,000",Houston,United States
+57,Tokyo Metropolitan Art Museum,Art museum,49.0,"1,509,970",Tokyo,Japan
+58,Changzhou Museum,N/A,N/A,"1,508,229",Changzhou,China
+59,Humboldt Forum,Art museum,N/A,"1,500,000",Berlin,Germany
+60,Kaohsiung Museum of Fine Arts,Art museum,N/A,"1,461,406",Kaohsiung,Taiwan
+61,Acropolis Museum,Archaeological Museum,N/A,"1,451,727",Athens,Greece
+62,China Science and Technology Museum,Science museum,N/A,"1,431,189",Beijing,China
+63,Suzhou Museum,N/A,N/A,"1,417,412",Suzhou,China
+64,Chengdu Museum,City museum,N/A,"1,404,735",Chengdu,China
+65,Shanghai Science and Technology Museum,N/A,N/A,"1,403,179",Shanghai,China
+66,"The National Art Center, Tokyo",N/A,N/A,"1,400,096",Tokyo,Japan
+67,Louis Vuitton Foundation,N/A,N/A,"1,500,000",Paris,France
+68,Tokyo National Museum,Art museum,N/A,"1,372,132",Tokyo,Japan
+69,National Museum in Kraków,National museum,N/A,"1,600,000",Kraków,Poland
+70,Centro Cultural Banco do Brasil,N/A,N/A,"1,364,208",São Paulo,Brazil
+71,Van Gogh Museum,Art museumNational museum,N/A,"1,364,023",Amsterdam,Netherlands
+72,Kunsthistorisches Museum,Art museum,N/A,"1,688,509",Vienna,Austria
+73,Museo Nazionale di Castel Sant'Angelo,Mausoleum,N/A,"1,321,834",Rome,Italy
+74,Tianjin Natural History Museum,Natural History Museum,N/A,"1,320,752",Tianjin,China
+75,Palacio de Cristal del Retiro,Non-movable,N/A,"1,318,823",Madrid,Spain
+76,Museum of European and Mediterranean Civilisations,National museum of ethnology,N/A,"1,300,000",Marseille,France
+77,Scottish National Gallery,N/A,N/A,"1,277,230",Edinburgh,United Kingdom
+78,Museo Reina Sofía,Non-movable,N/A,"1,253,183",Madrid,Spain
+79,Galata Tower,Touristic buildingmuseumexhibition placeFormerly: watchtowerobservation towerfire tower,N/A,"1,250,000",Istanbul,Turkey
