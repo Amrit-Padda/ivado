@@ -19,25 +19,25 @@ joined_data = joined_data[['name', 'type', 'collection_size', 'visitors', 'city'
 
 # We perform some cleaning of the data to prepare for model training
 mean_items = joined_data['collection_size'].mean()
-joined_data['collection_size'].fillna(mean_items, inplace=True)
-joined_data['visitors'] = joined_data['visitors'].str.replace(',', '').astype(float)
+joined_data['collection_size'] = joined_data['collection_size'].fillna(mean_items)
 joined_data['collection_size'] = joined_data['collection_size'].astype('int64')
 
-joined_data["visitors_2024"] = joined_data["visitors"] * (1 + joined_data["Growth Rate"])
-joined_data["visitors_2024"] = joined_data["visitors_2024"].astype('int64')
-
 mode_type = joined_data['type'].mode()
-joined_data['type'].fillna(mode_type, inplace=True)
+joined_data['type'] = joined_data['type'].fillna(mode_type.iloc[0])
 
-# Encoding features
+# Creating data for 2024 by multiplying visitors by the growth rate of the city
+joined_data["visitors_2024"] = joined_data["visitors"] * (1 + joined_data["Growth Rate"])
+joined_data["visitors_2024"] = joined_data["visitors_2024"].round().astype('int64')
+
+# Encoding features, but keeping a copy of the df for validation later
 encoder = LabelEncoder()
 data_copy = joined_data.copy()
-joined_data['name'] = encoder.fit_transform(joined_data['name'])
 joined_data['type'] = encoder.fit_transform(joined_data['type'])
-joined_data['city'] = encoder.fit_transform(joined_data['type'])
+joined_data['city'] = encoder.fit_transform(joined_data['city'])
 
 # Splitting features (X) and target variable (Y)
-X = joined_data.drop(columns='visitors_2024', axis=1)
+# The museum name is used solely for identification so we exclude it from encoding.
+X = joined_data.drop(columns=['name', 'visitors_2024'], axis=1)
 Y = joined_data['visitors_2024']
 
 # Splitting the data into training and testing sets
@@ -47,10 +47,15 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, random_
 regressor = XGBRegressor()
 regressor.fit(X_train, Y_train)
 
-# Testing model
+# Testing model on training data
 training_data_prediction = regressor.predict(X_train)
 r2_train = metrics.r2_score(Y_train, training_data_prediction)
-print('R Squared value = ', r2_train)
+print('R Squared (Training Data) = ', r2_train)
+
+# Evaluate model on test data
+test_data_prediction = regressor.predict(X_test)
+r2_test = metrics.r2_score(Y_test, test_data_prediction)
+print('R Squared (Test Data) = ', r2_test)
 
 # Predicting values using full dataset
 prediction = regressor.predict(X)
