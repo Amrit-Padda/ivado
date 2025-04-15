@@ -12,3 +12,8 @@ This new organization wishes to correlate the tourist attendance at their museum
 2. A jupyter notebook hosted in docker should also be created. This notebook should  programmatically use your other code to visually present the results of your regression model.
 
 You will be evaluated not only on how your code works but also on the rationale for the choices you make. 
+
+#### How to run
+1. docker build -t ivado .
+2. docker run -p 8888:8888 ivado
+3. Open Jupyter notebook and run cells
