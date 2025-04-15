@@ -14,8 +14,9 @@ def get_museum_data(regenerate=False):
     it will only regenerate the dataset if it is not cached locally
     or if the regenerate flag is set to true.
     
-    TODO: As the size of the dataset increases, we would have to save it elsewhere.
-    For now it is fine to cache it locally. 
+    TODO: As the size of the dataset increases, and to allow for many users to access the data
+    we would have to save it elsewhere. 
+    For now since this is a MVP we will save the file locally. 
     
     :param regenerate: Whether we want to regenerate the dataset
     :return: the dataframe containing museum data
