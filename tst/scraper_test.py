@@ -19,11 +19,7 @@ from src.scraper import clean_collection_size, convert_million_values, extract_f
     ],
 )
 def test_clean_collection_size(raw_size, expected_size):
-
-    # Act
     actual_size = clean_collection_size(raw_size)
-
-    # Assert
     if np.isnan(expected_size):
         assert np.isnan(actual_size)
     else:
@@ -71,12 +67,8 @@ def test_clean_collection_size(raw_size, expected_size):
     ],
 )
 def test_convert_million_values_happy_path(test_id, input_df, expected_df):
-
-    # Act
     actual_df = input_df.copy()
     convert_million_values(actual_df)
-
-    # Assert
     pd.testing.assert_frame_equal(actual_df, expected_df)
 
 
@@ -106,11 +98,7 @@ def test_convert_million_values_happy_path(test_id, input_df, expected_df):
     ],
 )
 def test_extract_first_city_part_happy_path(test_id, input_df, expected_df):
-
-    # Act
     actual_df = extract_first_city_part(input_df.copy())
-
-    # Assert
     pd.testing.assert_frame_equal(actual_df, expected_df)
 
 

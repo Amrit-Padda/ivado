@@ -20,19 +20,18 @@ def get_museum_data(regenerate=False):
     :param regenerate: Whether we want to regenerate the dataset
     :return: the dataframe containing museum data
     """
-    output_file = Path("data/museum_data.csv")
+    output_file = Path('../data/museum_data.csv')
+    
     if output_file.exists() and not regenerate:
         return pd.read_csv(output_file)
-
+    
     df = generate_museum_dataset()
     df.to_csv(output_file)
     return df
 
 def generate_museum_dataset():
     """
-        If required we will scrape wikipedia to generate the
-        museum data
-        
+        Generate the museum dataset by scraping and cleaning the wikipedia page
         :return: cleaned museum dataframe
     """
     soup = BeautifulSoup(wp.page("List of most-visited museums").html(), 'html.parser')
