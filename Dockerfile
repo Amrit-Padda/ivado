@@ -5,7 +5,7 @@ WORKDIR /ivado
 
 COPY data/ data
 COPY src/ src
-COPy tst/ tst
+COPY tst/ tst
 # Make port 8888 available to the world outside this container
 EXPOSE 8888
 
