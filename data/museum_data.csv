@@ -23,59 +23,60 @@
 21,Victoria and Albert Museum,Art museum,2800000.0,3525700,London,United Kingdom
 22,National Air and Space Museum,Aviation museum,,3100000,Washington,United States
 23,National Gallery,Art museum,,3203451,London,United Kingdom
-24,Museum of Modern Art,Art museum,,2839509,New York City,United States
-25,National Museum of Anthropology,Archaeology museum,,2636352,Mexico City,Mexico
-26,Centre Pompidou,Cultural center,,2611000,Paris,France
-27,Museo Nacional de Historia,History museum,,2456825,Mexico City,Mexico
-28,Golestan Palace,N/A,,2106603,Tehran,Iran
-29,Smithsonian Museum of American History,History museum,,2100000,Washington,United States
-30,Galleria dell'Accademia,Art museum,,2013914,Florence,Italy
-31,National Museum in Warsaw,National museum,,2000000,Warsaw,Poland
-32,Guggenheim Museum Bilbao,Art museum,,1324000,Bilbao,Spain
-33,Mevlana Museum,Mosque,,3352505,Konya,Turkey
-34,State Russian Museum,Art museum and Historic site,,2900000,Saint Petersburg,Russia
-35,National Museum of Marine Science and Technology,museum,,2726000,Keelung,Taiwan
-36,London Science Museum,N/A,,2827242,London,United Kingdom
-37,M_plus,Art museum,,2798000,Hong Kong,Hong Kong
-38,National Museum of Nature and Science,N/A,,2694021,Tokyo,Japan
-39,Chinese Aviation Museum,Aviation museum,,2300000,Beijing,China
-40,Topography of Terror,N/A,,2100000,Berlin,Germany
-41,Cité des Sciences et de l'Industrie,Science museum,,1992823,Paris,France
-42,National Museum of Scotland,N/A,,2314974,Edinburgh,United Kingdom
-43,State Tretyakov Gallery,Art museum,,2100000,Moscow,Russia
-44,National Science and Technology Museum,Science museum,,1875372,Kaohsiung,Taiwan
-45,National Museum of Modern and Contemporary Art,N/A,,1806641,Seoul,South Korea
-46,Rijksmuseum,National museumArt museumHistory museum,1000000.0,2702824,Amsterdam,Netherlands
-47,Belvedere,Art museum,,1834000,Vienna,Austria
-48,National Gallery Singapore,Art museum,,1723916,Singapore,Singapore
-49,California Science Center,Science museum,,1694000,Los Angeles,United States
-50,Art Gallery of NSW,"Fine arts, visual arts, Asian arts",,1692028,Sydney,Australia
-51,Royal Museums Greenwich,N/A,,2255753,London,United Kingdom
-52,Zhejiang Museum of Natural History,Natural history museum,,1581263,Hangzhou,China
-53,National Gallery of Victoria,State Registered Place,,1580303,Melbourne,Australia
-54,National Palace Museum,National museum,,1550000,Taipei,Taiwan
-55,Jianchuan Museum Cluster,N/A,,1538143,Chengdu,China
-56,Houston Museum of Natural Science,Natural history museum,,1520000,Houston,United States
-57,Tokyo Metropolitan Art Museum,Art museum,49.0,1509970,Tokyo,Japan
-58,Changzhou Museum,N/A,,1508229,Changzhou,China
-59,Humboldt Forum,Art museum,,1500000,Berlin,Germany
-60,Kaohsiung Museum of Fine Arts,Art museum,,1461406,Kaohsiung,Taiwan
-61,Acropolis Museum,Archaeological Museum,,1451727,Athens,Greece
-62,China Science and Technology Museum,Science museum,,1431189,Beijing,China
-63,Suzhou Museum,N/A,,1417412,Suzhou,China
-64,Chengdu Museum,City museum,,1404735,Chengdu,China
-65,Shanghai Science and Technology Museum,N/A,,1403179,Shanghai,China
-66,"The National Art Center, Tokyo",N/A,,1400096,Tokyo,Japan
-67,Louis Vuitton Foundation,N/A,,1500000,Paris,France
-68,Tokyo National Museum,Art museum,,1372132,Tokyo,Japan
-69,National Museum in Kraków,National museum,,1600000,Kraków,Poland
-70,Centro Cultural Banco do Brasil,N/A,,1364208,São Paulo,Brazil
-71,Van Gogh Museum,Art museumNational museum,,1364023,Amsterdam,Netherlands
-72,Kunsthistorisches Museum,Art museum,,1688509,Vienna,Austria
-73,Museo Nazionale di Castel Sant'Angelo,Mausoleum,,1321834,Rome,Italy
-74,Tianjin Natural History Museum,Natural History Museum,,1320752,Tianjin,China
-75,Palacio de Cristal del Retiro,Non-movable,,1318823,Madrid,Spain
-76,Museum of European and Mediterranean Civilisations,National museum of ethnology,,1300000,Marseille,France
-77,Scottish National Gallery,N/A,,1277230,Edinburgh,United Kingdom
-78,Museo Reina Sofía,Non-movable,,1253183,Madrid,Spain
-79,Galata Tower,Touristic buildingmuseumexhibition placeFormerly: watchtowerobservation towerfire tower,,1250000,Istanbul,Turkey
+24,National Museum of Natural Science,Museum,,2854455,Taichung,Taiwan
+25,Museum of Modern Art,Art museum,,2839509,New York City,United States
+26,National Museum of Anthropology,Archaeology museum,,2636352,Mexico City,Mexico
+27,Centre Pompidou,Cultural center,,2611000,Paris,France
+28,Museo Nacional de Historia,History museum,,2456825,Mexico City,Mexico
+29,Golestan Palace,N/A,,2106603,Tehran,Iran
+30,Smithsonian Museum of American History,History museum,,2100000,Washington,United States
+31,Galleria dell'Accademia,Art museum,,2013914,Florence,Italy
+32,National Museum in Warsaw,National museum,,2000000,Warsaw,Poland
+33,Guggenheim Museum Bilbao,Art museum,,1324000,Bilbao,Spain
+34,Mevlana Museum,Mosque,,3352505,Konya,Turkey
+35,State Russian Museum,Art museum and Historic site,,2900000,Saint Petersburg,Russia
+36,National Museum of Marine Science and Technology,museum,,2726000,Keelung,Taiwan
+37,London Science Museum,N/A,,2827242,London,United Kingdom
+38,M_plus,Art museum,,2798000,Hong Kong,Hong Kong
+39,National Museum of Nature and Science,N/A,,2694021,Tokyo,Japan
+40,Chinese Aviation Museum,Aviation museum,,2300000,Beijing,China
+41,Topography of Terror,N/A,,2100000,Berlin,Germany
+42,Cité des Sciences et de l'Industrie,Science museum,,1992823,Paris,France
+43,National Museum of Scotland,N/A,,2314974,Edinburgh,United Kingdom
+44,State Tretyakov Gallery,Art museum,,2100000,Moscow,Russia
+45,National Science and Technology Museum,Science museum,,1875372,Kaohsiung,Taiwan
+46,National Museum of Modern and Contemporary Art,N/A,,1806641,Seoul,South Korea
+47,Rijksmuseum,National museumArt museumHistory museum,1000000.0,2702824,Amsterdam,Netherlands
+48,National Palace Museum,National museum,,1874994,Taipei,Taiwan
+49,Belvedere,Art museum,,1834000,Vienna,Austria
+50,National Gallery Singapore,Art museum,,1723916,Singapore,Singapore
+51,California Science Center,Science museum,,1694000,Los Angeles,United States
+52,Art Gallery of NSW,"Fine arts, visual arts, Asian arts",,1692028,Sydney,Australia
+53,Royal Museums Greenwich,N/A,,2255753,London,United Kingdom
+54,Zhejiang Museum of Natural History,Natural history museum,,1581263,Hangzhou,China
+55,National Gallery of Victoria,State Registered Place,,1580303,Melbourne,Australia
+56,Jianchuan Museum Cluster,N/A,,1538143,Chengdu,China
+57,Houston Museum of Natural Science,Natural history museum,,1520000,Houston,United States
+58,Tokyo Metropolitan Art Museum,Art museum,49.0,1509970,Tokyo,Japan
+59,Changzhou Museum,N/A,,1508229,Changzhou,China
+60,Humboldt Forum,Art museum,,1500000,Berlin,Germany
+61,Kaohsiung Museum of Fine Arts,Art museum,,1461406,Kaohsiung,Taiwan
+62,Acropolis Museum,Archaeological Museum,,1451727,Athens,Greece
+63,China Science and Technology Museum,Science museum,,1431189,Beijing,China
+64,Suzhou Museum,N/A,,1417412,Suzhou,China
+65,Chengdu Museum,City museum,,1404735,Chengdu,China
+66,Shanghai Science and Technology Museum,N/A,,1403179,Shanghai,China
+67,"The National Art Center, Tokyo",N/A,,1400096,Tokyo,Japan
+68,Louis Vuitton Foundation,N/A,,1500000,Paris,France
+69,Tokyo National Museum,Art museum,,1372132,Tokyo,Japan
+70,National Museum in Kraków,National museum,,1600000,Kraków,Poland
+71,Centro Cultural Banco do Brasil,N/A,,1364208,São Paulo,Brazil
+72,Van Gogh Museum,Art museumNational museum,,1364023,Amsterdam,Netherlands
+73,Kunsthistorisches Museum,Art museum,,1688509,Vienna,Austria
+74,Museo Nazionale di Castel Sant'Angelo,Mausoleum,,1321834,Rome,Italy
+75,Tianjin Natural History Museum,Natural History Museum,,1320752,Tianjin,China
+76,Palacio de Cristal del Retiro,Non-movable,,1318823,Madrid,Spain
+77,Museum of European and Mediterranean Civilisations,National museum of ethnology,,1300000,Marseille,France
+78,Scottish National Gallery,N/A,,1277230,Edinburgh,United Kingdom
+79,Museo Reina Sofía,Non-movable,,1253183,Madrid,Spain
+80,Galata Tower,Touristic buildingmuseumexhibition placeFormerly: watchtowerobservation towerfire tower,,1250000,Istanbul,Turkey
