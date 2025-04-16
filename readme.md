@@ -24,3 +24,8 @@ You will be evaluated not only on how your code works but also on the rationale 
 2. docker run -p 8888:8888 ivado
 3. Open Jupyter notebook and run cells
 ```
+
+#### Todos and improvements:
+- Caching and persisting of datasets needs to be improved for prod deployment
+- Adding more testing
+- Improve readability of webscraping and regex components
