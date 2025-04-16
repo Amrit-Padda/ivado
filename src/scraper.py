@@ -88,7 +88,6 @@ class Scraper:
             if i >= len(df):
                 break
             features: dict = self.get_museum_features(url)
-            print(features)   
 
             for f in self.MODEL_FEATURES:
                 df.at[i, f] = features.get(f, self.MODEL_FEATURES[f])
