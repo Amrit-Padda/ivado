@@ -19,6 +19,8 @@ You will be evaluated not only on how your code works but also on the rationale 
 3. The result of the model is outputted to the console, based on the needs of the customer this data would be outputted somewhere more useful. This would also be done in a python module, not a notebook, so it is omitted for now 
 
 #### How to run:
+```
 1. docker build -t ivado .
 2. docker run -p 8888:8888 ivado
 3. Open Jupyter notebook and run cells
+```
