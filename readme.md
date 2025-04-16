@@ -13,6 +13,11 @@ This new organization wishes to correlate the tourist attendance at their museum
 
 You will be evaluated not only on how your code works but also on the rationale for the choices you make. 
 
+#### Assumptions made
+1. This is an MVP so the scraping module is not robust enough for a full prod deployment, there is very little validation of scraped data. It works currently but it will likely break when changes are made to the wikipedia page
+2. The datasets used here are small, small enough to cache them locally and load them when needed, if this was deployed into a prod env, the datasets will likely have to be saved or cached elsewhere
+3. The result of the model is outputted to the console, based on the needs of the customer this data would be outputted somewhere more useful. This would also be done in a python module, not a notebook, so it is omitted for now 
+
 #### How to run:
 1. docker build -t ivado .
 2. docker run -p 8888:8888 ivado
